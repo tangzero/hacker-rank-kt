@@ -1,9 +1,8 @@
 package dev.tangzero.hr.algorithms
 
-import io.mockk.clearAllMocks
 import io.mockk.mockkStatic
 import io.mockk.spyk
-import io.mockk.unmockkStatic
+import io.mockk.unmockkAll
 import org.junit.jupiter.api.AfterEach
 import org.junit.jupiter.api.BeforeEach
 import java.io.PrintStream
@@ -21,8 +20,7 @@ abstract class ConsoleTest {
     @AfterEach
     fun cleanup() {
         System.setOut(out)
-        unmockkStatic("kotlin.io.ConsoleKt")
-        clearAllMocks()
+        unmockkAll()
     }
 
 }
