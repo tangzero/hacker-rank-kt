@@ -1,4 +1,4 @@
-package dev.tangzero.hr.algorithms.solve
+package dev.tangzero.hr.algorithms.warmup.solve
 
 import dev.tangzero.hr.algorithms.ConsoleTest
 import io.mockk.every

@@ -1,4 +1,4 @@
-package dev.tangzero.hr.algorithms.solve
+package dev.tangzero.hr.algorithms.warmup.solve
 
 fun main() {
     val a = readLine()!!.toInt()
