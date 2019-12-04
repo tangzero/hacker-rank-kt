@@ -21,6 +21,7 @@ allprojects {
 
     tasks.withType<Test> {
         useJUnitPlatform()
+        
     }
 
     tasks.withType<KotlinCompile>().all {
