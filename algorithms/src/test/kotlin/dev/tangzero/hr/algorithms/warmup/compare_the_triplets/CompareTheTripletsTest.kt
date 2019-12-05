@@ -10,7 +10,7 @@ class CompareTheTripletsTest : ConsoleTest() {
     @Test
     fun `should compare 2 triplets`() {
         every { readLine() }.returnsMany("5 6 7", "3 6 10")
-        dev.tangzero.hr.algorithms.warmup.a_very_big_sum.main()
+        main()
         verify { println("1 1") }
     }
 
