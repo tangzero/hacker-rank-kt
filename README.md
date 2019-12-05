@@ -1,4 +1,4 @@
-# Hacker Hank in Kotlin 
+# HackerRank in Kotlin 
 [![CircleCI](https://circleci.com/gh/tangzero/hacker-rank-kt.svg?style=svg&circle-token=9e5f021246196ce776960af5d45fd2bdbca7bd19)](https://circleci.com/gh/tangzero/hacker-rank-kt)
 
 
